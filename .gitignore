@@ -1,0 +1,25 @@
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credenciais*.json
+
+# Dados pessoais / base de leads — nunca versionar
+leads/
+*.leads.csv
+exports/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Build / dependências
+node_modules/
+dist/
